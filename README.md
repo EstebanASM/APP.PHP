@@ -12,37 +12,32 @@ This is a simple PHP application that displays a sentence on the main page. This
 To clone the repository, use the following command:
 
 ```bash
-git clone https://github.com/Mates182/RB.PracticeTask.git
+git clone https://github.com/EstebanASM/APP.PHP.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd RB.PracticeTask
+cd APP.PHP
 ```
 
 ### Running the Application Locally (Without Docker)
 
 #### Prerequisites
-- [Ruby](https://www.ruby-lang.org/en/) and [Rails](https://rubyonrails.org/) must be installed on your machine.
+- [PHP](https://www.php.net/downloads) must be installed on your machine.
 
 #### Running the Application
-1. Inside the project directory, install the required gems:
+1. Run the following command to start the PHP server:
 
 ```bash
-bundle install
+php -S localhost:8000
+
 ```
 
-2. Start the Rails server:
+2. Open your browser and go to:
 
 ```bash
-rails server
-```
-
-3. Access the application in your browser at:
-
-```
-http://localhost:3000
+http://localhost:8000
 ```
 
 ### Running the Application with Docker
